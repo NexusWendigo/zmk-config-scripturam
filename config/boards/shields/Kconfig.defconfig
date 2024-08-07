@@ -1,6 +1,6 @@
 if SHIELD_SCRIPTURAM_LEFT
 
-config ZMK_SCRIPTURAM
+config ZMK_KEYBOARD_NAME
     default "Scripturam"
 
 config ZMK_SPLIT_ROLE_CENTRAL
