@@ -19,6 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: scripturam_left
+    shield: <scripturam>_left
+
   - board: nice_nano_v2
-    shield: scripturam_right
+    shield: <scripturam>_right
+    
