@@ -27,14 +27,14 @@
 
                         bindings = <
 //       |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
-//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  (  |  )  | BKSP |
-         &kp ESC &kp É &kp È &kp À                                                   &kp Ç &kp LPAR &kp RPAR &kp BSPC
+//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  LPAR  |  RPAR  | BKSP |
+         &kp ESC &kp PRCNT &kp CARET &kp GRAVE                                       &kp LBKT &kp LPAR &kp RPAR &kp BSPC
 // |  Q  |  W  |  E  |  R  |  T  |                                                   |  Y  |  U  |  I  |  O   |  P  | 
    &kp Q &kp W &kp E &kp R &kp T                                                     &kp Y &kp U &kp I &kp O  &kp P    
 // |  A  |  S  |  D  |  F  |  G  |                                                   |  H  |  J  |  K  |  L   |  ;  |
    &kp A &kp S &kp D &kp F &kp G                                                     &kp H &kp J  &kp K &kp L &kp SEMI
 // |  Ù  |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |  .  |
-   &kp Ù &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
+   &kp DQT &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
 //                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
                                  &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
 //                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
@@ -43,14 +43,14 @@
                 };
                 lower_layer {
 //       |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
-//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  (  |  )  | BKSP |
-         &kp ESC &kp É &kp È &kp À                                                   &kp Ç &kp LPAR &kp RPAR &kp BSPC
+//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  LPAR  |  RPAR  | BKSP |
+         &kp ESC &kp PRCNT &kp CARET &kp GRAVE                                       &kp LBKT &kp LPAR &kp RPAR &kp BSPC
 // |  Q  |  W  |  E  |  R  |  T  |                                                   |  Y  |  U  |  I  |  O   |  P  | 
    &kp Q &kp W &kp E &kp R &kp T                                                     &kp Y &kp U &kp I &kp O  &kp P    
 // |  A  |  S  |  D  |  F  |  G  |                                                   |  H  |  J  |  K  |  L   |  ;  |
    &kp A &kp S &kp D &kp F &kp G                                                     &kp H &kp J  &kp K &kp L &kp SEMI
 // |  Ù  |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |  .  |
-   &kp Ù &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
+   &kp DQT &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
 //                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
                                  &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
 //                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
@@ -60,14 +60,14 @@
 
                 raise_layer {
 //       |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
-//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  (  |  )  | BKSP |
-         &kp ESC &kp É &kp È &kp À                                                   &kp Ç &kp LPAR &kp RPAR &kp BSPC
+//       | ESC |  É  |  È  |  À  |                                                   |  Ç  |  LPAR  |  RPAR  | BKSP |
+         &kp ESC &kp PRCNT &kp CARET &kp GRAVE                                       &kp LBKT &kp LPAR &kp RPAR &kp BSPC
 // |  Q  |  W  |  E  |  R  |  T  |                                                   |  Y  |  U  |  I  |  O   |  P  | 
    &kp Q &kp W &kp E &kp R &kp T                                                     &kp Y &kp U &kp I &kp O  &kp P    
 // |  A  |  S  |  D  |  F  |  G  |                                                   |  H  |  J  |  K  |  L   |  ;  |
    &kp A &kp S &kp D &kp F &kp G                                                     &kp H &kp J  &kp K &kp L &kp SEMI
 // |  Ù  |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |  .  |
-   &kp Ù &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
+   &kp DQT &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA &kp DOT
 //                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
                                  &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
 //                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
