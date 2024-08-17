@@ -35,27 +35,27 @@
     &kp DQT &kp S &kp D &kp F &kp G                                                   &kp H &kp J  &kp K &kp L &kp DOT
 //       |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |
          &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA 
-//                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
-                                 &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
-//                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
-                                 &kp TAB &kp LCMD &mo LOWER       &mo LOWER &kp RCMD &kp TAB
+//                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
+                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+//                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
+                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
                         >;
                 };
                 lower_layer {
                            bindings = <               
 //       |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
-// |  Q  | ESC |  É  |  È  |  À  |                                                   |  Ç  |  LPAR  |  RPAR  | BKSP |  P  |
-    &kp Q &kp ESC &kp PRCNT &kp CARET &kp GRAVE                                       &kp LBKT &kp LPAR &kp RPAR &kp BSPC &kp P
-// |  A  |  W  |  E  |  R  |  T  |                                                   |  Y  |  U  |  I  |  O   |  ;  | 
-    &kp A &kp W &kp E &kp R &kp T                                                     &kp Y &kp U &kp I &kp O &kp SEMI     
-// |  Ù  |  S  |  D  |  F  |  G  |                                                   |  H  |  J  |  K  |  L   |  .  |
-    &kp DQT &kp A &kp S &kp D &kp F &kp G                                            &kp H &kp J  &kp K &kp L &kp DOT
-//       |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |
-         &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA 
-//                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
-                                 &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
-//                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
-                                 &kp TAB &kp LCMD &mo LOWER       &mo LOWER &kp RCMD &kp TAB
+// |  Q  | ESC |  É  |  È  |  À  |                                                   |  7  |  8  |  9  | * |  BSPC |
+    &kp Q &kp ESC &kp PRCNT &kp CARET &kp GRAVE                                       &kp N7 &kp N8 &kp N9 &kp STAR &kp BSPC
+// |  A  |  W  |  E  |  R  |  T  |                                                   |  4  |  5  |  6  |  /   |  CLEAR  | 
+    &kp A &kp W &kp E &kp R &kp T                                                     &kp N4 &kp N5 &kp N6 &kp SLASH  &kp CLEAR     
+// |  PROFILE_5  |  S  |  D  |  F  |  G  |                                           |  1  |  2  |  3  |  +   |  ENTER  |
+    &kp BT_SEL 4 &kp S &kp D &kp F &kp G                                              &kp N1 &kp N2  &kp N3 &kp KP_PLUS &kp ENTER
+//       |  PROFILE_4  |  PROFILE_3  |  PROFILE_2  |  PROFILE_1  |                   |  0  |  ,  |  .  |  -   |
+         &kp BT_SEL 3 &kp BT_SEL 2 &kp BT_SEL 1 &kp BT_SEL 0                          &kp N0 &kp KP_COMMA  &kp KP_DOT &kp KP_MINUS 
+//                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
+                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+//                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
+                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
                         >;
                 };
 
@@ -67,13 +67,13 @@
 // |  A  |  W  |  E  |  R  |  T  |                                                   |  Y  |  U  |  I  |  O   |  ;  | 
     &kp A &kp W &kp E &kp R &kp T                                                     &kp Y &kp U &kp I &kp O &kp SEMI     
 // |  Ù  |  S  |  D  |  F  |  G  |                                                   |  H  |  J  |  K  |  L   |  .  |
-    &kp DQT &kp A &kp S &kp D &kp F &kp G                                            &kp H &kp J  &kp K &kp L &kp DOT
+    &kp DQT &kp S &kp D &kp F &kp G                                                   &kp H &kp J  &kp K &kp L &kp DOT
 //       |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |
          &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA 
-//                               | SPC | SHFT | RSE |             | RSE | ALT  | SPC |
-                                 &kp SPACE &kp LSHIFT &mo RAISE   &mo RAISE &kp RALT &kp SPACE
-//                               | TAB | COM  | LWR |             | LWR |  COM | TAB |
-                                 &kp TAB &kp LCMD &mo LOWER       &mo LOWER &kp RCMD &kp TAB
+//                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
+                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+//                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
+                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
                         >;
                 };
         };
