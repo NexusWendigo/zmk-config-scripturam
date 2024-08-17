@@ -36,9 +36,9 @@
 //       |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |
          &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA 
 //                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
-                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+                                 &mo RAISE &kp LSHIFT &kp SPACE   &kp SPACE &kp RALT &mo RAISE
 //                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
-                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
+                                 &mo LOWER &kp LCMD &kp TAB       &mo TAB &kp RCMD &mo LOWER
                         >;
                 };
                 lower_layer {
@@ -53,9 +53,9 @@
 //       |  PROFILE_4  |  PROFILE_3  |  PROFILE_2  |  PROFILE_1  |                   |  0  |  ,  |  .  |  -   |
          &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0                          &kp N0 &kp KP_COMMA &kp KP_DOT &kp KP_MINUS 
 //                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
-                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+                                 &mo RAISE &kp LSHIFT &kp SPACE   &kp SPACE &kp RALT &mo RAISE
 //                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
-                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
+                                 &mo LOWER &kp LCMD &kp TAB       &mo TAB &kp RCMD &mo LOWER
                         >;
                 };
 
@@ -71,9 +71,9 @@
 //       |  Z  |  X  |  C  |  V  |                                                   |  B  |  N  |  M  |  ,   |
          &kp Z &kp X &kp C &kp V                                                     &kp B &kp N  &kp M &kp COMMA 
 //                               | RSE | SHFT | SPC |             | SPC | ALT  | RSE |
-                                 &kp RAISE &kp LSHIFT &mo SPACE   &mo SPACE &kp RALT &kp RAISE
+                                 &mo RAISE &kp LSHIFT &kp SPACE   &kp SPACE &kp RALT &mo RAISE
 //                               | LWR | COM  | TAB |             | TAB |  COM | LWR |
-                                 &kp LOWER &kp LCMD &mo TAB       &mo TAB &kp RCMD &kp LOWER
+                                 &mo LOWER &kp LCMD &kp TAB       &mo TAB &kp RCMD &mo LOWER
                         >;
                 };
         };
